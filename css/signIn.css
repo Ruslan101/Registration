@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+        #main {
+            max-width: 56%;
+        }
+}
+@media (max-width: 458px) {
+        #main {
+            max-width: 85%;
+        }
+}
+#main {
+        width: 100vw;
+        height: 100vh;
+}
+body {
+		background: no-repeat 100% 100% url("./../img/background.jpg");
+		color: white;
+}
+a {
+	color: cyan;
+}

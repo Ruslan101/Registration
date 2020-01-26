@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/users_style.css" rel="stylesheet">
+  <!-- Custom registration form -->
+  <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css"> -->
+  <!-- <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script> -->
+  <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+  </head>
+
+<body>
+	<div class="container col-md-4 col-sm-6 d-flex justify-content-center align-items-center" id="main">
+		<div id="message" class="row position-absolute">
+			<div class="alert alert-success">
+				<a href="signIn.html"><button type="button" class="close">×</button></a> <!-- data-dismiss="alert" aria-hidden="true" -->
+				<span class="glyphicon glyphicon-ok"></span> <strong>Are you registered <br><a href="signIn.html">Sign in</a></strong>
+				<hr class="message-inner-separator">
+				<p>You have successfully registered on our website.</p>
+				<p>Now you can: </p>
+				1. Watch high quality video
+				<br>2. Listen to music without limit.
+				<br>3. Receive email newsletter of our news and updates!
+				<br>4. Doing something else...
+			</div>
+		</div>
+		<form class="text-center border border-light p-4" id="registrationForm">
+			<p class="h4 mb-4">Sign up</p>
+			<div class="mb-4">
+				<input id="firstName" type="text" id="defaultRegisterFormFirstName" required class="form-control mb-4" placeholder="First name">
+				<input id="secondName" type="text" id="defaultRegisterFormLastName" required class="form-control" placeholder="Last name">
+			</div>
+			<input id="email" type="email" id="defaultRegisterFormEmail" class="form-control mb-4" required placeholder="E-mail">
+			<input id="password" min="8" type="password" id="defaultRegisterFormPassword" class="form-control" required placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+			<small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">At least 8 characters</small>
+			<input id="phone" type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+			<small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">Optional - for two step authentication</small>
+			<div class="custom-control custom-checkbox">
+				<input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+				<label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+			</div>
+			<button class="btn btn-info my-4 btn-block" type="submit">Sign up</button>
+			<a href="signIn.html" class="text-white">Sign in</a>
+			<hr />
+			<em>Sign up</em> you agree to our
+			<a href="" target="_blank">terms of service</a>
+		</form>
+	</div>
+	<!-- SCRIPTS -->
+  	<!-- JQuery -->
+  	<script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  	<!-- Bootstrap tooltips -->
+  	<script type="text/javascript" src="js/popper.min.js"></script>
+  	<!-- Bootstrap core JavaScript -->
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- Custom script -->
+	<script type="text/javascript" src="js/register.js"></script>  
+</body>
+
+</html>

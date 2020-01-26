@@ -1,0 +1,4 @@
+
+<IfModule dir_module>
+    DirectoryIndex home.html
+</IfModule>
